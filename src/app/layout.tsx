@@ -4,7 +4,9 @@ import "./globals.css";
 
 const inter = Inter({ variable: "--font-inter", subsets: ["latin"], weight: ["200", "300", "400", "500", "600"] });
 
-const siteUrl = "https://proigmeni.com";
+// Must be the final URL Vercel serves (the apex 308-redirects to www). Preview crawlers
+// like WhatsApp won't follow a redirect to fetch og:image.
+const siteUrl = "https://www.proigmeni.com";
 const title = "Proigmeni: AI solutions and automation for Nigerian businesses";
 const shareDescription =
   "AI agents, workflow automation, document intelligence and private AI assistants, built and run from Lagos.";
