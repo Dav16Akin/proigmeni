@@ -11,7 +11,8 @@ const title = "Proigmeni: AI solutions and automation for Nigerian businesses";
 const shareDescription =
   "AI agents, workflow automation, document intelligence and private AI assistants, built and run from Lagos.";
 // Link-preview image (WhatsApp, LinkedIn, X...). Regenerate with: node scripts/make-og-image.mjs
-const ogImage = { url: "/og.jpg", width: 1200, height: 630, alt: "Proigmeni: Putting AI to work in Nigerian business" };
+// Bump ?v= whenever the image changes: WhatsApp caches previews by image URL.
+const ogImage = { url: "/og.jpg?v=2", width: 1200, height: 630, alt: "Proigmeni: AI systems and automations for Nigerian businesses" };
 
 export const metadata: Metadata = {
   // Makes og:image an absolute URL; link previews break with relative ones.
