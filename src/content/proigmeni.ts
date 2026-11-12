@@ -7,7 +7,7 @@ export const brand = {
   say: "pro-ig-MEH-nee",
   meaning: "Greek for “advanced”",
   city: "Lagos",
-  email: "hello@proigmeni.example", // stand-in until the real domain is set up
+  email: "hello@proigmeni.com",
   primary: "Get started",
 };
 

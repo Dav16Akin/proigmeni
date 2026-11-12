@@ -46,8 +46,6 @@ All copy (hero, mission, services, languages, contact details) lives in
 
 House style: short statements, first-person plural, plain verbs. No prices, invented clients, quotes or statistics.
 
-> **Note:** the contact email is a placeholder (`hello@proigmeni.example`) until the real domain is set up.
-
 ## Deployment
 
 Deploys as a standard Next.js app, e.g. on [Vercel](https://vercel.com/new).
