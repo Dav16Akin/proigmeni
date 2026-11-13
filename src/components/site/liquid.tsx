@@ -63,8 +63,8 @@ function Header() {
   return (
     <header className="fixed inset-x-0 top-0 z-50 text-white mix-blend-difference">
       <div className="flex h-[66px] items-center justify-between px-5 md:px-10">
-        <a href="#main" className="font-roobert text-[16px]">
-          proigmeni lagos
+        <a href="#main" aria-label="Proigmeni, back to top" className="block">
+          <Image src="/brand/logo-white.png" alt="Proigmeni" width={117} height={32} priority className="h-6 w-auto md:h-8" />
         </a>
         <nav aria-label="Main" className="flex gap-5 font-roobert text-[11px] uppercase tracking-[0.04em] md:gap-8">
           {nav.map(([l, h]) => (
@@ -390,7 +390,7 @@ function Footer() {
   return (
     <footer className="mx-auto grid max-w-[1078px] gap-8 border-t border-black px-5 pb-16 pt-12 font-roobert text-[11px] leading-[1.36] text-[#6d6d6d] md:grid-cols-3 md:px-0">
       <div>
-        <p className="text-[16px] text-black">proigmeni</p>
+        <Image src="/brand/logo-black.png" alt="Proigmeni" width={102} height={28} className="h-7 w-auto" />
         <p className="mt-2">AI solutions and automation</p>
       </div>
       <div>

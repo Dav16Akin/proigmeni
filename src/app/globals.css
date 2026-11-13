@@ -4,6 +4,17 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/* Proigmeni brand colours, one per page theme. Each has a logo variant in public/brand/logo-on-<name>.png.
+   Use as Tailwind utilities: bg-sage, text-oxblood, border-amber... */
+@theme {
+  --color-sage: #6eaa78;
+  --color-orange: #e86e28;
+  --color-amber: #ffbe5a;
+  --color-oxblood: #340c09;
+  --color-ink: #000000;
+  --color-paper: #ffffff;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
